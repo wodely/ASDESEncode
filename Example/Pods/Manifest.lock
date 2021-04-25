@@ -1,0 +1,16 @@
+PODS:
+  - ASDESEncode (0.1.0)
+
+DEPENDENCIES:
+  - ASDESEncode (from `../`)
+
+EXTERNAL SOURCES:
+  ASDESEncode:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ASDESEncode: 4be6a9ee6908c848322c6d77331dee9acaf39034
+
+PODFILE CHECKSUM: 9ea540c9fc9724c2b34577bbeb5c5af4d86789c3
+
+COCOAPODS: 1.10.1

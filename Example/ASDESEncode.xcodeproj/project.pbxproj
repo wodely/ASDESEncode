@@ -42,7 +42,7 @@
 		173BDF7A1B211C7685E492E3 /* Pods-ASDESEncode_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASDESEncode_Example.release.xcconfig"; path = "Target Support Files/Pods-ASDESEncode_Example/Pods-ASDESEncode_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2BC6BA5776013B135648DC85 /* Pods-ASDESEncode_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASDESEncode_Example.debug.xcconfig"; path = "Target Support Files/Pods-ASDESEncode_Example/Pods-ASDESEncode_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		413EBC9EA9F49D7AE3C4C517 /* Pods-ASDESEncode_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASDESEncode_Tests.release.xcconfig"; path = "Target Support Files/Pods-ASDESEncode_Tests/Pods-ASDESEncode_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5470CB4BE19845E55CA5D4FD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5470CB4BE19845E55CA5D4FD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ASDESEncode_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASDESEncode_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,9 +63,9 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		85D72F71D17AAB7C3622580C /* ASDESEncode.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ASDESEncode.podspec; path = ../ASDESEncode.podspec; sourceTree = "<group>"; };
+		85D72F71D17AAB7C3622580C /* ASDESEncode.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ASDESEncode.podspec; path = ../ASDESEncode.podspec; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C52148C6342F3E1785DCE042 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C52148C6342F3E1785DCE042 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C633BE4C22C6B2EF6D9CAB16 /* Pods_ASDESEncode_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASDESEncode_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -103,7 +103,6 @@
 				021D23884B60B177D46F93AE /* Pods-ASDESEncode_Tests.debug.xcconfig */,
 				413EBC9EA9F49D7AE3C4C517 /* Pods-ASDESEncode_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "liukecyl@163.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = TU5L2H2C9P;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -494,6 +497,7 @@
 			baseConfigurationReference = 2BC6BA5776013B135648DC85 /* Pods-ASDESEncode_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TU5L2H2C9P;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ASDESEncode/ASDESEncode-Prefix.pch";
 				INFOPLIST_FILE = "ASDESEncode/ASDESEncode-Info.plist";
@@ -510,6 +514,7 @@
 			baseConfigurationReference = 173BDF7A1B211C7685E492E3 /* Pods-ASDESEncode_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TU5L2H2C9P;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ASDESEncode/ASDESEncode-Prefix.pch";
 				INFOPLIST_FILE = "ASDESEncode/ASDESEncode-Info.plist";

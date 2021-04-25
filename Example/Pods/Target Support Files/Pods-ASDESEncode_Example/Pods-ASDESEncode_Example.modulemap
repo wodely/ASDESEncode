@@ -1,0 +1,6 @@
+framework module Pods_ASDESEncode_Example {
+  umbrella header "Pods-ASDESEncode_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
